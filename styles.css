@@ -1,0 +1,460 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+  }
+  .offer-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+    background: url('./images/Untitled\ design\ \(3\).png') no-repeat center center / cover;
+    border-radius: 20px;
+    position: relative;
+  }
+  /* styles.css */
+
+
+.neon-banner {
+  text-align: center;
+}
+
+.tagline {
+  font-size: 24px;
+  color: #ffca28;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.neon-title {
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f50057;
+  text-shadow: 
+    0 0 2px #f50057, 
+    0 0 5px #f50057, 
+    0 0 40px #f50057, 
+    0 0 00px #f50057, 
+    0 0 80px #ff4081;
+  margin: 0;
+}
+
+.neon-title span {
+  display: block;
+  color: #00e5ff;
+  font-style: italic;
+  text-shadow: 
+    0 0 2px #00e5ff, 
+    0 0 5px #00e5ff, 
+    0 0 10px #00e5ff, 
+    0 0 00px #00e5ff, 
+    0 0 80px #18ffff;
+}
+  .offer-image {
+    position: relative;
+    max-width: 45%;
+  }
+  
+  .offer-image img {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+ 
+  
+  .discount-badge {
+    position: absolute;
+    top: 12%;
+    right: 12%;
+    background: #ff007f;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 28px;
+    border: 3px solid white;
+  }
+/*About section-------------------------*/
+.about_section{
+  margin-top: 6rem;
+}
+.about_section h2{
+  text-align: center;
+}
+.about_card_section{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
+  gap: 4rem;
+}
+.about_card{
+  background-color: #000000;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.bacground_circle{
+  position: absolute;
+  background: #ff007f;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 28px;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.about_details{
+  margin-top: 6rem;
+  padding: 5px;
+}
+/*Details section ---------------------------*/
+.deals_section{
+  margin-top: 6rem;
+}
+.deals_section h2{
+  text-align: center;
+}
+.details{
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  margin-right: 130px;
+  justify-content: space-between;
+  margin-top: 3rem;
+  
+}
+.deals_card{
+  width: 220px;
+  background-color: #000000;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.card_icon{
+  position: absolute;
+  background: #ff007f;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.deals_card img{
+  width: 220px;
+  padding-top: 1.7rem;
+}
+
+
+/*Promo section---------------------*/
+.promo-section {
+  margin-top: 6rem;
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  width: 980px;
+  background: linear-gradient(to bottom right,#000000 70%, #ff007f 30%); /* Pink and Black diagonal split */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+
+.promo-content {
+  max-width: 50%;
+  z-index: 2; /* Ensures the content appears above the background */
+}
+
+.promo-content h2 {
+  font-size: 32px;
+  margin: 0 0 20px;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+.promo-content .sale-text {
+  color: #ff007f; /* Bright pink for "Sale" text */
+  font-style: italic;
+  font-size: 40px;
+}
+
+.promo-content p {
+  font-size: 16px;
+  margin: 0 0 20px;
+  color: #cccccc;
+}
+
+.shop-now-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #ff007f; /* Solid pink for button */
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(255, 0, 85, 0.4); /* Pink shadow */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shop-now-btn:hover {
+  transform: scale(1.03) translateY(-1px);
+  background-color: #f50057; /* Slightly lighter pink on hover */
+  box-shadow: 0 8px 20px rgba(255, 0, 127, 0.6);
+}
+
+.promo-image {
+  max-width: 50%;
+  z-index: 2; /* Ensures the image is above the background */
+}
+
+.promo-image img {
+  max-width: 100%;
+  height: auto;
+  transform: rotate(-10deg);
+}
+
+/* Add a soft pink accent overlay */
+.promo-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1); /* Semi-transparent pink overlay */
+  z-index: 1;
+}
+
+
+/*Card section----------------------*/
+.discount_section{
+  margin-top: 5rem;
+}
+.discount_section h2{
+  text-align: center;
+}
+  
+  .discount_card_section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 3rem;
+  }
+  
+  .product-card {
+    width: 470px;
+    background-color: #020000;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .sale-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #ff007f; /* Background color */
+    color: #fff; /* Text color */
+    font-size: 14px; /* Font size */
+    width: 40px; /* Equal width and height */
+    height: 40px;
+    line-height: 40px; /* Center the text vertically */
+    text-align: center; /* Center the text horizontally */
+    border-radius: 50%; /* Makes it a circle */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
+}
+
+  
+  .product-image {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+  }
+  
+  .sale-price {
+    color: #ff007f;
+    font-weight: bold;
+  }
+  
+  .product-discount {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 15px;
+  }
+  
+  .add-to-cart {
+    background-color: #ff007f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #ff007f;
+  }
+  
+
+  /*Discount section------------------------------------------------------------------------------*/
+  .discount-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 60vh; /* Full viewport height */
+    background: linear-gradient(to bottom right,#000000 70%, #ff007f 30%);
+  }
+  
+  .discount-content {
+    max-width: 40vh;
+    padding: 20px;
+  }
+  
+  .discount-content h2 {
+    font-size: 32px;
+    margin: 0 0 20px;
+    line-height: 1.4;
+  }
+  
+  .discount-content .sale-text {
+    color: #ff0055;
+    font-style: italic;
+    font-size: 40px;
+  }
+  
+  .discount-content p {
+    font-size: 16px;
+    margin: 0 0 20px;
+    color: #cccccc;
+  }
+  
+  .shop-now-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #ff0055;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(255, 0, 85, 0.4);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #ff007f;
+    box-shadow: 0 8px 20px rgba(255, 0, 127, 0.6);
+  }
+  
+  .discount-logos {
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  /* Add lines between logos */
+  .logo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 150px; /* Space between items */
+    position: relative;
+  }
+  
+  .logo-grid img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Vertical lines between logos */
+  .logo-grid::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 33.33%; /* 1st vertical line */
+    width: 1px;
+    background: #ffffff;
+  }
+  
+  .logo-grid::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 66.66%; /* 2nd vertical line */
+    width: 1px;
+    background: #ffffff;
+  }
+  
+  /* Horizontal lines between rows */
+  .logo-grid .horizontal-line {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50%; /* 1st horizontal line */
+    height: 1px;
+    background: #ffffff;
+  }
+
+ 
+  
