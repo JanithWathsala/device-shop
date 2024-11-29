@@ -5,13 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+    <nav>
+        <ul>
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>TOP DETAILS</li>
+          <li>PRICING</li>
+          <li>FAQ</li>
+        </ul>
+      </nav>
     <section>
         <div class="offer-banner">
             <div class="neon-banner">
-              <p class="tagline">Don't Miss This</p>
-              <h1 class="neon-title">BLACK <span>Friday Offer</span></h1>
+              <p class="tagline" data-aos="fade-down" data-aos-duration="1000">Don't Miss This</p>
+              <h1 class="neon-title" data-aos="fade-down" data-aos-duration="1000">BLACK <span>Friday Offer</span></h1>
             </div>
             <div class="offer-image">
               <img src="./images/Untitled-4.png" alt="Black Friday Headphones" class="image-shadow">
@@ -23,11 +33,11 @@
     <!-------------About us-------------->
     <section class="about_section">
         <h2></h2>
-        <h2>WHY SHOP WITH US?</h2>
-        <div class="about_card_section">
+        <h2 data-aos="fade-down" data-aos-duration="1000">WHY SHOP WITH US?</h2>
+        <div class="about_card_section" data-aos="fade-down" data-aos-duration="1000">
             <div class="about_card">
                 <div class="bacground_circle"></div>
-                <img src="" alt="">
+                <img src="./images/Untitled-3.png" alt="">
                 <div class="about_details">
                     <h3>BE THE FIRST IN LINE</h3>
                     <p>"Be the first in line for exclusive offers, early deals, and VIP access. Don’t miss out!"</p>
@@ -35,7 +45,7 @@
             </div>
             <div  class="about_card">
                 <div class="bacground_circle"></div>
-                <img src="" alt="">
+                <img src="./images/Untitled-2.png" alt="">
                 <div class="about_details">
                     <h3>ENJOY GIVEAWAYS</h3>
                     <p>"Enjoy exclusive giveaways, amazing prizes, and exciting rewards. Don’t miss your chance to win!"</p>
@@ -43,7 +53,7 @@
             </div>
             <div  class="about_card">
                 <div class="bacground_circle"></div>
-                <img src="" alt="">
+                <img src="./images/Untitled-1.png" alt="">
                 <div class="about_details">
                     <h3>BE HAPPY & SATISFIED</h3>
                 <p>"Be happy and satisfied with our exceptional services, quality products, and unbeatable experiences!"</p>
@@ -55,18 +65,20 @@
     <!--Top Deals section-->
     <section class="deals_section">
         <h2></h2>
-        <h2>TOP DEALS GET 40% OFF</h2>
-        <div class="details">
+        <h2 data-aos="fade-down" data-aos-duration="1000">TOP DEALS GET 40% OFF</h2>
+        <div class="details" data-aos="fade-down" data-aos-duration="1000">
         <div class="deals_card">
             <div>
                 <div class="card_icon">SALE</div>
                 <img src="./images/mouse-3933846_1280.jpg" alt="">
-                <h3></h3>
+                <h3>BLUETOOTH MOUSE</h3>
                 <p class="product-price">
-                    <span class="original-price">$1500.00</span>
-                    <span class="sale-price">$500.00</span>
+                    <span class="original-price">$50.00</span>
+                    <span class="sale-price">$15.00</span>
                 </p>
-                <div></div>
+                <div class="rating">
+                    <span class="star">★★★★★</span>
+                </div> 
                 <div class="deals_card_button">
                     <img src="" alt="">
                     <p><b></b></p>
@@ -77,12 +89,14 @@
             <div>
                 <div class="card_icon">SALE</div>
                 <img src="./images/Headphone-Transparent-PNG.png" alt="">
-                <h3></h3>
+                <h3>BLUTOOTH HED SET</h3>
                 <p class="product-price">
-                    <span class="original-price">$1500.00</span>
-                    <span class="sale-price">$500.00</span>
+                    <span class="original-price">$150.00</span>
+                    <span class="sale-price">$90.00</span>
                 </p>
-                <div></div>
+                <div class="rating">
+                    <span class="star">★★★★★</span>
+                </div> 
                 <div class="deals_card_button">
                     <img src="" alt="">
                     <p><b></b></p>
@@ -93,12 +107,14 @@
             <div>
                 <div class="card_icon">SALE</div>
                 <img src="./images/25shots_so.png" alt="">
-                <h3></h3>
+                <h3>APPLE DESKTOP</h3>
                 <p class="product-price">
-                    <span class="original-price">$1500.00</span>
-                    <span class="sale-price">$500.00</span>
+                    <span class="original-price">$2500.00</span>
+                    <span class="sale-price">$1400.00</span>
                 </p>
-                <div></div>
+                <div class="rating">
+                    <span class="star">★★★★★</span>
+                </div> 
                 <div class="deals_card_button">
                     <img src="" alt="">
                     <p><b></b></p>
@@ -109,12 +125,14 @@
             <div>
                 <div class="card_icon">SALE</div>
                 <img src="./images/810shots_so.png" alt="">
-                <h3></h3>
+                <h3>APPLE WATCH</h3>
                 <p class="product-price">
-                    <span class="original-price">$1500.00</span>
-                    <span class="sale-price">$500.00</span>
+                    <span class="original-price">$350.00</span>
+                    <span class="sale-price">$240.00</span>
                 </p>
-                <div></div>
+                <div class="rating">
+                    <span class="star">★★★★★</span>
+                </div>                                   
                 <div class="deals_card_button">
                     <img src="" alt="">
                     <p><b></b></p>
@@ -128,7 +146,7 @@
 <!--Sale section--------------------->
 
     <section class="promo_section">
-        <div class="promo-section">
+        <div class="promo-section" data-aos="fade-down" data-aos-duration="1000">
             <div class="promo-content">
               <h2><span class="sale-text">Sale</span><br>UP TO 60% OFF ON OUR ALL PRODUCTS</h2>
               <p>Join our email list and be first to hear about our latest Black Friday deals.</p>
@@ -143,15 +161,15 @@
     <!-------------Discount section------------->
     <section class="discount_section">
     <h2></h2>
-    <h2>GRAB EXCLUSIVE DISCOUNTS</h2>
-    <div class="discount_card_section">
+    <h2 data-aos="fade-down" data-aos-duration="1000">GRAB EXCLUSIVE DISCOUNTS</h2>
+    <div class="discount_card_section" data-aos="fade-down" data-aos-duration="1000">
     <div class="discount_card_section1">
         <div class="product-card">
-            <div>
-                <h3 class="product-title">New Sound Box Pro</h3>
+            <div class="product-card-details">
+                <h3 class="product-title">APPLE MOUSE</h3>
                 <p class="product-price">
-                    <span class="original-price">$1500.00</span>
-                    <span class="sale-price">$500.00</span>
+                    <span class="original-price">$50.00</span>
+                    <span class="sale-price">$15.00</span>
                 </p>
                 <p class="product-discount">70% Off Black Friday Sale</p>
                 <button class="add-to-cart">Add to Cart</button>
@@ -162,51 +180,51 @@
             </div>
         </div>
         <div class="product-card">
-            <div>
-                <h3 class="product-title">New Sound Box Pro</h3>
+            <div class="product-card-details">
+                <h3 class="product-title">APPLE 16-PRO</h3>
                 <p class="product-price">
-                    <span class="original-price">$1500.00</span>
-                    <span class="sale-price">$500.00</span>
+                    <span class="original-price">$1200.00</span>
+                    <span class="sale-price">$720.00</span>
                 </p>
-                <p class="product-discount">70% Off Black Friday Sale</p>
+                <p class="product-discount">40% Off Black Friday Sale</p>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
             <div>
                 <div class="sale-badge">Sale</div>
-                <img src="./images/mouse-3933846_1280.jpg" alt="New Sound Box Pro" class="product-image">
+                <img src="./images/822shots_so.png" alt="New Sound Box Pro" class="product-image">
             </div>
         </div>
     </div>
 
     <div class="discount_card_section1">
         <div class="product-card">
-            <div>
-                <h3 class="product-title">New Sound Box Pro</h3>
+            <div class="product-card-details">
+                <h3 class="product-title">APPLE PC</h3>
                 <p class="product-price">
-                    <span class="original-price">$1500.00</span>
-                    <span class="sale-price">$500.00</span>
+                    <span class="original-price">$2300.00</span>
+                    <span class="sale-price">$1150.00</span>
                 </p>
-                <p class="product-discount">70% Off Black Friday Sale</p>
+                <p class="product-discount">50% Off Black Friday Sale</p>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
             <div>
                 <div class="sale-badge">Sale</div>
-                <img src="./images/mouse-3933846_1280.jpg" alt="New Sound Box Pro" class="product-image">
+                <img src="./images/454shots_so.png" alt="New Sound Box Pro" class="product-image">
             </div>
         </div>
         <div class="product-card">
-            <div>
-                <h3 class="product-title">New Sound Box Pro</h3>
+            <div class="product-card-details">
+                <h3 class="product-title">APPLE WATCH</h3>
                 <p class="product-price">
-                    <span class="original-price">$1500.00</span>
-                    <span class="sale-price">$500.00</span>
+                    <span class="original-price">$250.00</span>
+                    <span class="sale-price">$137.50</span>
                 </p>
-                <p class="product-discount">70% Off Black Friday Sale</p>
+                <p class="product-discount">45% Off Black Friday Sale</p>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
             <div>
                 <div class="sale-badge">Sale</div>
-                <img src="./images/mouse-3933846_1280.jpg" alt="New Sound Box Pro" class="product-image">
+                <img src="./images/305shots_so.png" alt="New Sound Box Pro" class="product-image">
             </div>
         </div>
     </div>
@@ -215,7 +233,7 @@
 
     <section>
         
-  <div class="product-container">
+  <div class="product-container" data-aos="fade-down" data-aos-duration="1000">
     <!-- Product 1 -->
     <div class="discount-section">
       <!-- Left Content -->
@@ -260,9 +278,9 @@
 
 
     <section class="faq">
-        <h2>FREQUENTLY ASKED QUESTION</h2>
-    <div class="faq-section">
-        <div class="faq-item">
+        <h2 data-aos="fade-down" data-aos-duration="1000">FREQUENTLY ASKED QUESTION</h2>
+    <div class="faq-section" >
+        <div class="faq-item" data-aos="fade-right" data-aos-duration="1500">
             <div class="faq-question">
               <span class="icon">+</span>
               Can I return or exchange a product?
@@ -272,7 +290,7 @@
             </div>
         </div>
 
-        <div class="faq-item">
+        <div class="faq-item" data-aos="fade-left" data-aos-duration="1000">
             <div class="faq-question">
               <span class="icon">+</span>
               How do I place an order on your website?
@@ -282,7 +300,7 @@
             </div>
         </div>
 
-        <div class="faq-item">
+        <div class="faq-item" data-aos="fade-right" data-aos-duration="1000">
             <div class="faq-question">
               <span class="icon">+</span>
               What payment methods do you accept?
@@ -292,7 +310,7 @@
             </div>
         </div>
 
-        <div class="faq-item">
+        <div class="faq-item" data-aos="fade-left" data-aos-duration="1000">
             <div class="faq-question">
               <span class="icon">+</span>
               Do you offer discounts or promotions?
@@ -302,7 +320,7 @@
             </div>
         </div>
 
-        <div class="faq-item">
+        <div class="faq-item" data-aos="fade-right" data-aos-duration="1000">
             <div class="faq-question">
               <span class="icon">+</span>
               How Can Start Digital Marketing Business?
@@ -315,7 +333,7 @@
             </div>
         </div>
 
-        <div class="faq-item">
+        <div class="faq-item" data-aos="fade-left" data-aos-duration="1000">
             <div class="faq-question">
               <span class="icon">+</span>
               How do I contact customer support?
@@ -332,22 +350,28 @@
     <div class="footer_section">
         <div>
             <h3>Black Friday</h3>
-            <p></p>
-            <div  class="">
-                <div class="footer_icon"><img src="" alt=""></div>
-                <div class="footer_icon"><img src="" alt=""></div>
-                <div class="footer_icon"><img src="" alt=""></div>
-                <div class="footer_icon"><img src="" alt=""></div>
+            <p>Stay connected with us for the latest <br> updates, exclusive deals, and customer support</p>
+            <div  class="footer_imgs">
+                <div class="footer_icon"><img src="./images/brand-facebook.png" alt=""><a href=""></a></div>
+                <div class="footer_icon"><img src="./images/brand-instagram.png" alt=""><a href=""></a></div>
+                <div class="footer_icon"><img src="./images/brand-tiktok.png" alt=""><a href=""></a></div>
+                <div class="footer_icon"><img src="./images/brand-twitter.png" alt=""><a href=""></a></div>
             </div>
         </div>
         <div>
             <h3>CONTACT INFORMATION</h3>
             <div>
-
+                <p>MOBILE : +94 711519402</p>
+                <p>Email : wathsalajanith@gmail.com</p>
+                <p>ADDRESS : 52/B.Pitipan,north,Homagama</p>
             </div>
         </div>
     </div>
 </footer>
-    <script src="./script.js"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
